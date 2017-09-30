@@ -1,0 +1,31 @@
+{
+  "name": "iphonebook",
+  "version": "1.0.0",
+  "description": "A generated Bluemix application",
+  "private": true,
+  "engines": {
+    "node": "^6.9.0"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "debug": "node --debug server/server.js",
+    "test": "nyc mocha"
+  },
+  "dependencies": {
+    "appmetrics": "^3.0.1",
+    "body-parser": "^1.17.2",
+    "cloudant": "^1.8.0",
+    "express": "^4.15.3",
+    "express-validation": "^1.0.2",
+    "express-validator": "^4.2.1",
+    "ibm-cloud-env": "^0",
+    "joi": "^11.1.1",
+    "log4js": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "mocha": "^3.4.2",
+    "nyc": "^10.3.2",
+    "proxyquire": "^1.8.0"
+  }
+}
